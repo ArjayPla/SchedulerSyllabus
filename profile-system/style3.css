@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 30;
+    padding: 50;
+    background-color: white;
+}
+
+li, a {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px, 10%;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px, 20px;
+}
+
+nav li, a {
+    margin-left: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li, a{
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+
+}
+
+ul li, a:hover{
+    color: #0400ff;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    margin-top: 4%;
+}
